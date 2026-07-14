@@ -1,0 +1,19 @@
+# CRDC
+Crdc.File:			/projects/ceclub/jaclyn/R00TLe_e17018/R00TLe/prm/crdccal.dat
+Crdc.Ped.File:			/projects/ceclub/jaclyn/R00TLe_e17018/R00TLe/prm/crdcpedestals.dat
+BadPad.File:			/projects/ceclub/jaclyn/R00TLe_e17018/R00TLe/prm/BadPads.dat
+
+# Do fit?
+Crdc.X.Fit:			0
+# fit function: 1=SECHS 2=gaussian
+Crdc.X.FitFunc:			1
+
+# CRDC position calibration
+Crdc.X.Offset.0:	      -279.723
+Crdc.X.Slope.0:			 2.54
+Crdc.Y.Offset.0:	       126.515
+Crdc.Y.Slope.0:		        -0.176956
+Crdc.X.Offset.1:   	      -278.796
+Crdc.X.Slope.1:		 	 2.54
+Crdc.Y.Offset.1:	      -132.229
+Crdc.Y.Slope.1:		         0.178208

@@ -1,0 +1,46 @@
+#
+#
+# This the defualt map file for R00TLe.  If there is not a run specific file
+# the building of calibrated Trees will default to this file called MapFile.txt
+# Comments in the file can be made with the '#' character.  As long as the first
+# non white space character is a '#' the line will be ignored.
+#
+# The format of the file is:
+# DDAS_Slot_Number DDAS_Channel_Number Name_Of_Channel Angle_Of_bar Name_Of_Reference_Channel FL FG d w
+#
+2	0	NL01T	173.39	NL01T	2	2	4	7	0  
+2	1	NL01B	173.39	NL01T	2	2	4	7	0
+2	2	NL03T	173.39	NL01T	2	2	4	7	0
+2	3	NL03B	173.39	NL01T	2	2	4	7	0
+2	4	SL03T	173.39	SL01T	2	2	4	7	0
+2	5	SL03B	173.39	SL01T	2	2	4	7	0
+2	6	SL04T	173.39	SL01T	2	2	4	7	0
+2	7	SL04B	173.39	SL01T	2	2	4	7	0
+2	8	SL05T	173.39	SL01T	2	2	4	7	0
+2	9	SL05B	173.39	SL01T	2	2	4	7	0
+2	10	SL06T	173.39	SL01T	2	2	4	7	0
+2	11	SL06B	173.39	SL01T	2	2	4	7	0
+3	0	NL02T	173.39	NL02T	2	2	4	7	0
+3	1	SL07B	173.39	NL02T	2	2	4	7	0
+3	2	SL08T	173.39	NL02T	2	2	4	7	0
+3	3	SL08B	173.39	NL02T	2	2	4	7	0
+3	4	SL09T	173.39	NL02T	2	2	4	7	0
+3	5	SL09B	173.39	NL02T	2	2	4	7	0
+3	6	SL10T	173.39	NL02T	2	2	4	7	0
+3	7	SL10B	173.39	NL02T	2	2	4	7	0
+3	8	SL11T	173.39	NL02T	2	2	4	7	0
+3	9	SL11B	173.39	NL02T	2	2	4	7	0
+3	10	SL12T	173.39	NL02T	2	2	4	7	0
+3	11	SL12B	173.39	NL02T	2	2	4	7	0
+4	0	SL01T	173.39	NL01T	2	2	4	7	0
+4	1	SL01B	173.39	NL01T	2	2	4	7	0
+4	2	SL02T	173.39	NL01T	2	2	4	7	0
+4	3	SL02B	173.39	NL01T	2	2	4	7	0
+4	4	NL03T	173.39	NL01T	2	2	4	7	0
+4	5	NL03B	173.39	NL01T	2	2	4	7	0
+4	6	NL04T	173.39	NL01T	2	2	4	7	0
+4	7	NL04B	173.39	NL01T	2	2	4	7	0
+4	8	NL05T	173.39	NL01T	2	2	4	7	0
+4	9	NL05B	173.39	NL01T	2	2	4	7	0
+4	10	NL06T	173.39	NL01T	2	2	4	7	0
+4	11	NL06B	173.39	NL01T	2	2	4	7	0
