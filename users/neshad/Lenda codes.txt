@@ -1,0 +1,10 @@
+Evt2Cal /mnt/daqtesting/lenda/experiment/run5224/run-5224-00.evt /mnt/daqtesting/lenda/rootfiles/run-5224-00.root 5224
+
+caltree->Draw("lendaevent.Bars[0].Tops[0].GetEnergy()","lendaevent.NumBars==1&&lendaevent.Bars[0].SimpleEventBit&&lendaevent.Bars[0].BarId==0")
+
+TFile *f = new TFile(“HistogramsFromRun5224.root”);
+f.ls();
+
+TH1F * h1 = new TH1F(“h1”,“h1 title” , 100, 0, 4);
+h1 = (TH1F*)f.Get("NL01_TopE");
+h1->Draw();
